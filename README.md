@@ -105,14 +105,6 @@ Your submission is evaluated across four areas. Each area carries equal importan
 
 **Co-Execution & Handoff** -- How does the customer team participate and take ownership? What does enablement look like for their platform/ops team? Is independent operation by Day 90 credible based on your plan?
 
-**What Distinguishes Exceptional Candidates:**
-
-- Treats the GitLab CI team as a real constraint and walks through how they'd get up to speed on an unfamiliar CI platform and confidently bring a working demo to that team
-- Proactively addresses problems not asked about: spec versioning, auth credential rotation, workspace governance as services scale, what happens when a spec changes
-- Connects the per-service onboarding pattern to the broader API catalog vision -- service discovery, dependency graphs, Agent Mode queries across the full catalog
-- Designs the handoff so the ops team can onboard new services without CSE involvement
-- Documents what they used AI for vs what they validated manually, and can explain why
-
 ## Provided Materials
 
 **OpenAPI Specifications:**
