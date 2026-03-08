@@ -1,5 +1,7 @@
 # Customer Success Engineer Implementation Exercise
 
+**Repository:** https://github.com/postman-cs/cse-exercise
+
 **Role:** Customer Success Engineer at Postman
 **Timeline:** 2-3 hours (use AI assistants)
 **Presentation:** 30 minutes (20-min presentation + 10-min Q&A)
@@ -45,7 +47,7 @@ This exercise has two parts: **working implementation** (against the Postman API
 ### Part 1: Working Implementation (Build It)
 
 You're provided with:
-- Three OpenAPI specs representing services with different characteristics (see [specs/](specs/))
+- Three OpenAPI specs representing services with different characteristics (see [specs/](https://github.com/postman-cs/cse-exercise/tree/main/specs))
 - Three pre-built Postman GitHub Actions with public READMEs (see "Provided Materials")
 
 **What you need to do:**
@@ -115,9 +117,9 @@ Your submission is evaluated across four areas. Each area carries equal importan
 
 **OpenAPI Specifications:**
 
-- [`payment-refund-api-openapi.yaml`](specs/payment-refund-api-openapi.yaml) -- Payment processing service (Lambda/API Gateway, OAuth + JWT auth)
-- [`loan-origination-api-openapi.yaml`](specs/loan-origination-api-openapi.yaml) -- Loan origination service (ECS/ALB, mTLS + JWT auth)
-- [`claims-processing-api-openapi.yaml`](specs/claims-processing-api-openapi.yaml) -- Claims processing service (mixed Lambda/ECS, OAuth + API key auth)
+- [`payment-refund-api-openapi.yaml`](https://github.com/postman-cs/cse-exercise/blob/main/specs/payment-refund-api-openapi.yaml) -- Payment processing service (Lambda/API Gateway, OAuth + JWT auth)
+- [`loan-origination-api-openapi.yaml`](https://github.com/postman-cs/cse-exercise/blob/main/specs/loan-origination-api-openapi.yaml) -- Loan origination service (ECS/ALB, mTLS + JWT auth)
+- [`claims-processing-api-openapi.yaml`](https://github.com/postman-cs/cse-exercise/blob/main/specs/claims-processing-api-openapi.yaml) -- Claims processing service (mixed Lambda/ECS, OAuth + API key auth)
 
 **Pre-Built GitHub Actions:**
 
