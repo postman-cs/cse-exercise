@@ -45,7 +45,7 @@ This exercise has two parts: **working implementation** (against the Postman API
 ### Part 1: Working Implementation (Build It)
 
 You're provided with:
-- Three OpenAPI specs representing services with different characteristics: `payment-refund-api-openapi.yaml`, `loan-origination-api-openapi.yaml`, `claims-processing-api-openapi.yaml`
+- Three OpenAPI specs representing services with different characteristics (see [specs/](specs/))
 - Three pre-built Postman GitHub Actions with public READMEs (see "Provided Materials")
 
 **What you need to do:**
@@ -115,9 +115,9 @@ Your submission is evaluated across four areas. Each area carries equal importan
 
 **OpenAPI Specifications:**
 
-- `payment-refund-api-openapi.yaml` -- Payment processing service (Lambda/API Gateway, OAuth + JWT auth)
-- `loan-origination-api-openapi.yaml` -- Loan origination service (ECS/ALB, mTLS + JWT auth)
-- `claims-processing-api-openapi.yaml` -- Claims processing service (mixed Lambda/ECS, OAuth + API key auth)
+- [`payment-refund-api-openapi.yaml`](specs/payment-refund-api-openapi.yaml) -- Payment processing service (Lambda/API Gateway, OAuth + JWT auth)
+- [`loan-origination-api-openapi.yaml`](specs/loan-origination-api-openapi.yaml) -- Loan origination service (ECS/ALB, mTLS + JWT auth)
+- [`claims-processing-api-openapi.yaml`](specs/claims-processing-api-openapi.yaml) -- Claims processing service (mixed Lambda/ECS, OAuth + API key auth)
 
 **Pre-Built GitHub Actions:**
 
